@@ -19,7 +19,7 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v2
         with:
-          java-version: '11' # Choose the desired Java version
+          java-version: '17' # Choose the desired Java version
 
       - name: Build and test
         run: |
